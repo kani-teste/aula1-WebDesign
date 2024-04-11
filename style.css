@@ -73,7 +73,23 @@ div.INDICADOR{
 
 footer{  
     background-color: dimgrey;
-}footer nav{
+}footer section.c{
+    display: flex;
+    background-color: darkkhaki;
+    justify-content: center;
+    
+}
+
+
+div.c_Digits{
+    display:grid;
+    grid-template-columns: 3rem 3rem 3rem;
+    grid-template-rows: 2rem 2rem 2rem 2rem;
+    border:0.2em solid black;
+   left: 0%;
+}
+
+footer nav{
     display: flex;
     border: 0.2rem dashed black;
     justify-content: space-between ;
